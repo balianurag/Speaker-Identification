@@ -1,0 +1,9 @@
+import librosa                                # A python package for music and audio analysis
+
+import numpy as np                            # For mathematical manupilation
+
+import os                                     # For accessing the train and test data directory location 
+
+import sklearn.mixture                        # For accessing Gaussian Mixture Model
+
+import nlpaug.augmenter.audio as naa          # for audio data augmentation
